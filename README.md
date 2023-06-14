@@ -12,6 +12,20 @@ Comment should be stored in a database. The database structure should be designe
 Make a proper validation of input data. Add tests when you find them useful. \
 Put the code in github (or other git repository) and send us the link.
 
+## (For the purpose of testing Full Stack Developer skills): 
+On the project we are using React library with Redux Toolkit Query (RTKQ) for fetching data from the API and managing the state.
+To make a picture more full: 
+- create a simple React app with RTKQ
+- create CRUD based on task #1 using RTKQ
+- add a simple UI to the app which will include: 
+  - a form to create a new entity with all the fields from the task #1
+  - a list of all entities with the possibility to delete an entity
+  - a form to update an entity
+  - delete entity button
+- On the project for validation we are using Formik (but not necessary, any form state management will be ok)
+- On the project for styling we are using Material UI (prefer to use it to create very simple UI of lists, forms, 
+  buttons etc.)
+
 ## 2. Check the pull request
    You have a Pull Request to review! \
    Documentation states the following:
